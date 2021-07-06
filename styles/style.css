@@ -1,18 +1,65 @@
-body {
-    font-family: arial,sans-serif;
+nav{
+    font-family: Arial, sans-serif;
     font-size: 14px;
-    color: #222;
 }
-.main-logo{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
-}
-.logo{
-    height:100%;
-    margin-top: auto;
-}
-footer {
+footer{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     background-color: #f2f2f2;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    color: #222222;
+}
+a { 
+    text-decoration: none;
+    padding: 1em;
+}
+a:hover {
+    text-decoration: underline;
+}
+#n-left{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+#n-right{
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 1em;
+}
+.footbar{
+    display: flex;
+    justify-content: space-between;
+}
+.footbar a{
     color: #70757a;
+}
+#f-left{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+}
+#f-right{
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 1em;
+}
+#user-icon{
+    max-height: 40px;
+    border-radius: 100000px;
+    margin: 4px;
+}
+#app-icon{        
+    max-height: 30px;
+    margin: 10px;
+}
+.image-link{
+    padding: 0;
+}
+#app-icon{
+    filter: invert(39%) sepia(14%) saturate(195%) hue-rotate(173deg) brightness(89%) contrast(82%);
 }
