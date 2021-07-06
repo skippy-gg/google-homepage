@@ -7,12 +7,16 @@ footer{
     font-size: 14px;
     background-color: #f2f2f2;
 }
+main{
+    font-family: Arial, sans-serif;
+    font-size: 14px; 
+}
 .navbar{
     display: flex;
     justify-content: space-between;
 }
 .navbar a{
-    color: #222222;
+    color: #3c4043;
 }
 a { 
     text-decoration: none;
@@ -74,14 +78,15 @@ a:hover {
 #main-icon{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 #searchbar{
     display: flex;
     align-items: center;
     border: 1.5px solid #dfe1e5;
     border-radius: 50px;
-    width: 35em;
-    height: 2.5em;
+    width: 42em;
+    height: 3em;
 }
 #searchbar:hover{
     box-shadow: 0px 0px 4px rgb(192, 192, 192);
@@ -101,4 +106,27 @@ a:hover {
     outline: none;
     width: 90%;
     border: 0px;
+}
+#search-buttons{
+    padding-top: 2em;
+}
+#search-buttons button{
+    border: 0px;
+    background-color: #f8f9fa;
+    height: 40px;
+    width: 130px;
+    color: #3c4043;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 8x;
+    margin-left: 8px;
+}
+#search-buttons button:hover{
+    border: 1px solid rgb(207, 207, 207);
+}
+#whitespace-top{
+    height: 13em;
+}
+#whitespace-bottom{
+    height: 48em;
 }
