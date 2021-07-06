@@ -111,6 +111,7 @@ a:hover {
 .main input{
     outline: none;
     width: 90%;
+    height: 95%;
     border: 0px;
 }
 #search-buttons{
