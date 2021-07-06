@@ -1,4 +1,4 @@
 # TheOdinProject - Google Homepage
-This was my first time creating a webapge using HTML and CSS.
+Google Homepage clone for TheOdinProject using HTML/CSS.
 
 **Live Demo: https://skippy-gg.github.io/google-homepage/**
